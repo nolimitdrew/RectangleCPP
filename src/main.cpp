@@ -1,7 +1,8 @@
 #include <iostream>
 #include "Rectangle.h"
 
-int main() {
+int main() 
+{
   Rectangle rect(5.0, 3.0); // Create an instance of Rectangle
 
   double length = rect.getLength();

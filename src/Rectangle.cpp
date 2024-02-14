@@ -1,18 +1,22 @@
 #include "Rectangle.h"
 
-Rectangle::Rectangle(double l, double w) {
+Rectangle::Rectangle(double l, double w) 
+{
   length = l;
   width = w;
 }
 
-double Rectangle::getLength() {
+double Rectangle::getLength() 
+{
   return length;
 }
 
-double Rectangle::getWidth() {
+double Rectangle::getWidth() 
+{
   return width;
 }
 
-double Rectangle::getArea() {
+double Rectangle::getArea() 
+{
   return length * width;
 }
